@@ -273,6 +273,125 @@ a.google span {
     color: #232836;
 }
 
+
+/*img emplacement*/
+.img-bord{
+    position: absolute;
+width: 250px;
+height: 250px;
+left: calc(50% - 350px/2 - 486px);
+top: calc(50% - 350px/2 - 112px);
+}
+
+.text{
+    font-family: 'Fauna One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+left: 469px;
+top: 225px;
+}
+
+.block1{
+    display: block;
+}
+
+.img{
+    height: 350px;
+    width: 350px;
+}
+
+.block2{
+    position: absolute;
+    left: calc(50% - 350px/2 - 486px);
+    top: 200px;
+}
+
+.block3 {
+    display:block;
+    justify-content: space-between;
+    position: absolute;
+    left: 380px;
+    top: 0px;
+    width: max-content;
+    height: 900px;
+}
+
+.info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.txt{
+    
+    font-family: 'Fauna One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+.btnupdt{
+    position: absolute;
+width: 207px;
+height: 60px;
+left: 620px;
+top: 500px;
+
+background: #67D027;
+border-radius: 101px;
+border: #67D027;
+text-decoration: none;
+}
+
+.updt{
+    
+width: 69px;
+height: 18px;
+text-decoration: none;
+font-family: 'Fauna One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #fff;
+
+}
+
+.btndlt{
+    position: absolute;
+width: 207px;
+height: 60px;
+left: 850px;
+top: 500px;
+
+background: #D03127;
+border-radius: 101px;
+border: #D03127;
+text-decoration: none;
+}
+
+.dlt{
+    
+width: 69px;
+height: 18px;
+text-decoration: none;
+font-family: 'Fauna One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #fff;
+
+}
+
+
+
 @media screen and (max-width: 400px) {
     .form {
         padding: 20px 10px;
